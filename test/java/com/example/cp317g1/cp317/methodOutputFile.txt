@@ -1,0 +1,12 @@
+double b = v1;
+double c = Math.abs(target-v1);
+double d = Math.abs(target-v2);
+if (c > d){
+b = v2;}
+else {
+b=v1;
+}
+
+return b;
+}
+
